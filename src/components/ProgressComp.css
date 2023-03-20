@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  margin: 10vh;
+}
+li {
+  font-family: "Arvo", serif;
+  padding: 2px;
+  margin: 2px;
+}
+
+input {
+  font-family: "Urbanist", sans-serif;
+  position: relative;
+  bottom: 2px;
+  left: 7px;
+  height: 20px;
+  width: 30px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid grey;
+  padding: 0px 8px;
+}
+h2 {
+  margin: 2px 2px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
